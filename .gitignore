@@ -1,0 +1,19 @@
+# Ignore ESP-IDF build outputs
+build/
+*.bin
+*.elf
+*.map
+
+# Ignore ESP-IDF environment and tools
+.espressif/
+esp-idf/
+
+# Ignore Python environment files
+*.pyc
+.python-env
+
+# Ignore logs and temporary files
+*.log
+
+# Ignore QEMU source if it was cloned into ~/esp (optional)
+qemu/
